@@ -15,13 +15,17 @@ It is just a website with my recommendations of songs, and i have linked the spo
 All of the songs are from a single artist, Bartika Eam Rai:
 
 -Najeek
+
 -Tadhaa
 
 Albums:
 
 -Si Ma Na
+
 -Taral
+
 -Aandhi Ityaadi
+
 -Bimbaakash
 
 # Why I Made It
