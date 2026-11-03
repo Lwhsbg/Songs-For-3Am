@@ -1,30 +1,93 @@
-body{
-    background-color: #050505;
+body {
+    background-color: #09070a;
     color: #eeeeee;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     margin: 40px;
 }
-h1{
+h1 {
     font-size: 40px;
-    color: #b8a2cc;
+    color: #c5a9d6;
+    text-align: center;
+    margin-top: 50px;
 }
-
-h2{
-    margin-top: 35px;
-    background-color: #151219;
-    padding: 12px;
-    border-left: 3px solid #554064;
+.subtitle {
+    color: #99909e;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 30px;
 }
-h3{
-    margin-bottom: 5px;
-    color: #dddddd;
-}
-p{
-    color: #888888;
-}
-hr{
+hr {
     border: 0;
-    border-top: 1px solid #29232e;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    border-top: 1px solid #392c3d;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main {
+    background-color: #17111b;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #392c3d;
+}
+.main img{
+    width: 80%;
+    height: 350px;
+    object-fit: cover;
+    border: 2px solid #59445e;
+}
+.main h2 {
+    color: #c5a9d6;
+    font-size: 24px;
+}
+.main p {
+    color: #99909e;
+}
+body > h2 {
+    color: #c5a9d6;
+    background-color: #17111b;
+    padding: 15px;
+    border-left: 4px solid #a16b40;
+}
+.song {
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.number {
+    color: #bd874c;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+.song h3 {
+    color: #e0d3e6;
+    margin-bottom: 5px;
+    font-size: 21px;
+}
+.song p{
+    color: #88808d;
+    font-size: 14px;
+}
+.song img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #59445e;
+    margin-top: 10px;
+}
+.song:hover {
+    background-color: #17111b;
+}
+.ending p {
+    color: #c5a9d6;
+    font-size: 16px;
+}
+body {
+    background-image:  linear-gradient(
+        rgba(9, 7, 10, 0.92),
+        rgba(9, 7, 10, 0.95)
+    ), url("images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
