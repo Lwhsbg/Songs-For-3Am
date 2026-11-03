@@ -10,12 +10,6 @@ h1 {
     text-align: center;
     margin-top: 50px;
 }
-.subtitle {
-    color: #99909e;
-    text-align: center;
-    font-size: 14px;
-    margin-bottom: 30px;
-}
 hr {
     border: 0;
     border-top: 1px solid #392c3d;
@@ -31,8 +25,8 @@ hr {
     border: 1px solid #392c3d;
 }
 .main img{
-    width: 80%;
-    height: 350px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
     border: 2px solid #59445e;
 }
